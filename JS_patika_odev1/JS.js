@@ -1,6 +1,6 @@
 let promptName = prompt("Lutfen adinizi giriniz: ")
 let userName = document.querySelector("#userName")
-userName.innerHTML = `<h1>${userName.innerHTML} Merhaba, <strong>${promptName}</strong>! Hoş geldin!  </h1>`
+userName.innerHTML = `<h1> Merhaba, <strong>${promptName}</strong>! Hoş geldin! </h1>`
 
 function GetTime() {
 
