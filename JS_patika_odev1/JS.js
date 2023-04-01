@@ -2,13 +2,13 @@ let promptName = prompt("Lutfen adinizi giriniz: ")
 let userName = document.querySelector("#userName")
 userName.innerHTML = `<h1>${userName.innerHTML} Merhaba, <strong>${promptName}</strong>! Hoş geldin!  </h1>`
 
-function GetTime () {
+function GetTime() {
 
     let now = new Date();
     let hour = now.getHours();
     let minutes = now.getMinutes();
     let second = now.getSeconds();
-   
+
     let clockHour = document.querySelector("#hour")
     clockHour.innerHTML = `${hour}:`
     let clockMinutes = document.querySelector("#minute")
